@@ -1,0 +1,37 @@
+======================
+My OCR
+======================
+
+.. image:: https://upload.wikimedia.org/wikipedia/commons/a/a7/Blank_template.svg
+     :target: https://github.com/bitsofparag/my_ocr
+     :alt: Updates
+
+Python package for My OCR
+
+* Git repo: https://github.com/bitsofparag/my_ocr
+* Documentation: https://github.com/bitsofparag/my_ocr/docs
+* Free software: MIT
+
+Features
+--------
+
+Setup and Usage
+---------------
+
+Once you are in the project root:
+
+1. `pip install -r requirements.txt -r requirements-dev.txt`
+
+2. `docker pull tesseractshadow/tesseract4re`
+
+3. `docker build -t my_ocr:latest .`
+
+4. `docker run -it --rm -v $PWD:/usr/src/my_ocr my_ocr:latest bash`
+
+
+Build Status
+------------
+
+
+Contributing Guidelines
+-----------------------

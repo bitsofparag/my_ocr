@@ -1,0 +1,5 @@
+pillow
+pytesseract
+matplotlib
+numpy
+sentry-sdk>=0.14.3
