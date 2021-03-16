@@ -26,8 +26,13 @@ Once you are in the project root:
 
 3. `docker build -t my_ocr:latest .`
 
-4. `docker run -it --rm -v $PWD:/usr/src/my_ocr my_ocr:latest bash`
+4. You can invoke the program by executing the docker command:
 
+   `docker run -it --rm -v $PWD:/usr/src/my_ocr my_ocr:latest python3 -m my_ocr.main`
+
+5. Alternately, you can work in development mode from inside the docker container by mounting the source code:
+
+   `docker run -it --rm -v $PWD:/usr/src/my_ocr my_ocr:latest bash`
 
 Build Status
 ------------
