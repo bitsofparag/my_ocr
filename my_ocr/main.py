@@ -73,11 +73,17 @@ def main(*args, **kwargs):
     :some_arg type: describe the argument `some_arg`
     """
 
+    # String delimiters
+    DELIM_REGEX = r'\t|\n|\x0b|\x0c|\r'
+
     # Read image
     img = Image.open(path.join(IMG_DIR, 'read-tomatocsv.png'))
 
     # run some processing
-    print(get_table_string(img))
+    data = get_table_string(img)
+    rows: list = re.split(DELIM_REGEX, data)
+    for row in rows:
+        print(row.split(' '))
 
 
 # ==============================
