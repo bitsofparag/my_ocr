@@ -1,19 +1,21 @@
 ======================
-My OCR
+OCRe
 ======================
 
 .. image:: https://upload.wikimedia.org/wikipedia/commons/a/a7/Blank_template.svg
-     :target: https://github.com/bitsofparag/my_ocr
+     :target: https://github.com/bitsofparag/ocre
      :alt: Updates
 
-Python package for My OCR
+Python package for OCRe
 
-* Git repo: https://github.com/bitsofparag/my_ocr
-* Documentation: https://github.com/bitsofparag/my_ocr/docs
+* Git repo: https://github.com/bitsofparag/ocre
+* Documentation: https://github.com/bitsofparag/ocre/docs
 * Free software: MIT
 
-Features
---------
+Introduction
+------------
+
+A simple image-processing library for reading spreadsheets
 
 Setup and Usage
 ---------------

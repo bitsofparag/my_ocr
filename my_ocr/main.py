@@ -81,6 +81,7 @@ def main(*args, **kwargs):
 
     # run some processing
     data = get_table_string(img)
+
     rows: list = re.split(DELIM_REGEX, data)
     for row in rows:
         print(row.split(' '))
